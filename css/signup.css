@@ -1,0 +1,294 @@
+/* =========== ref============  */
+
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+/* ============= CSS RESET ============  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.035);
+}
+
+
+/* ================ UTILITIES CLASS ============  */
+
+.primary-btn {
+    background-color: unset;
+    color: #8d9196;
+    border-radius: 0.25rem;
+    padding: 0.50rem 1rem;
+    font-weight: 400;
+    border: 1px solid #e2e8f0;
+    transition: all 0.6s;
+    font-size: 0.9rem;
+}
+
+.primary-btn:hover {
+    background-color: #3284e8;
+    color: #fff;
+}
+
+.secondary-btn {
+    background-color: #60a5fa;
+    color: #fff;
+    border-radius: 0.25rem;
+    padding: 0.50rem 1rem;
+    font-weight: 400;
+    border: 1px solid #60a5fa;
+    transition: all 0.6s;
+    font-size: 0.9rem;
+}
+
+.secondary-btn:hover {
+    background-color: #3284e8;
+    color: #fff;
+}
+
+
+/* ============= NAV SECTION ===========  */
+
+#nav {
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+#nav .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav .container .logo {
+    width: 50%;
+}
+
+#nav .container .navbar {
+    width: 100%;
+}
+
+#nav .container .call-to-action {
+    width: 40%;
+}
+
+#nav .container .logo img {
+    width: 30%;
+}
+
+#nav .container .navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav .container .navbar ul li a {
+    font-family: 'Poppins', sans-serif;
+    color: #475569;
+    margin: 0rem 1rem;
+    font-size: 0.9rem;
+}
+
+#nav .container .navbar ul li a:hover {
+    color: #60a5fa;
+    /* color: red; */
+}
+
+#nav .container .call-to-action a {
+    margin: 0rem 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ======================= sign up form ==============  */
+
+#account {
+    width: 100%;
+    padding: 3rem 0rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#account .container {
+    width: 90%;
+    margin: auto;
+}
+
+#account .container .account-header {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 20px rgba(128, 128, 128, 0.106);
+}
+
+#account .container .account-header .special-style {
+    text-align: center;
+    color: #3284e8;
+    background-color: #3284e821;
+    padding: 0.5rem 1.5rem;
+}
+
+#account .container .account-header h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+#account .container .account-header input {
+    width: 100%;
+    padding: 1rem 1rem;
+    margin: 0.3rem 0rem;
+    background-color: rgba(128, 128, 128, 0.059);
+    border: none;
+    border-radius: 0.1rem;
+}
+
+#account .container .account-header .btn-box {
+    width: 100%;
+    display: flex;
+    margin: 1.5rem 0rem;
+}
+
+#account .container .account-header .btn-box a {
+    width: 100%;
+    display: inline-block;
+}
+
+#account .container .account-header .btn-box .primary-btn {
+    padding: 1rem 2rem;
+    background-color: #1a76e6;
+    color: white;
+}
+
+#account .container .account-header .btn-box .secondary-btn {
+    margin-left: 1rem;
+    padding: 1rem 2rem;
+}
+
+
+/* ================== FOOTER SECTION ====================  */
+
+#footer {
+    width: 100%;
+    padding: 2rem 0rem;
+    font-family: 'Poppins', sans-serif;
+    border-top: 1px solid rgba(128, 128, 128, 0.173);
+    background-color: rgba(128, 128, 128, 0.047);
+}
+
+#footer .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .container .box1 {
+    width: 50%;
+}
+
+#footer .container .box2 {
+    width: 100%;
+}
+
+#footer .container .box .box-container {
+    width: 100%;
+}
+
+#footer .container .box1 .box-container .logo {
+    width: 100%;
+}
+
+#footer .container .box1 .box-container .logo img {
+    width: 30%;
+}
+
+#footer .container .box1 .box-container .subscription {
+    width: 100%;
+    margin: 0.5rem 0rem;
+}
+
+#footer .container .box1 .box-container .subscription .btn-box {
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+#footer .container .box1 .box-container .subscription .btn-box input {
+    width: 50%;
+    padding: 0.75rem 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.286);
+}
+
+#footer .container .box1 .box-container .subscription .btn-box button {
+    border: none;
+    background-color: #3284e8;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 3px;
+}
+
+#footer .container .box1 .box-container .special-color-gray {
+    color: gray;
+}
+
+#footer .container .box1 .box-container .copyright i {
+    font-size: 1.5rem;
+    margin: 1rem 0.5rem;
+    color: #3284e8;
+}
+
+#footer .container .box2 .box-container {
+    display: flex;
+}
+
+#footer .container .box2 .box-container .card {
+    width: 100%;
+    margin: 0rem 1rem;
+}
+
+#footer .container .box2 .box-container .card .card-container {
+    width: 100%;
+}
+
+#footer .container .box2 .box-container .card .card-container h3 {
+    margin: 0.50rem 0rem;
+}
+
+#footer .container .box2 .box-container .card .card-container p {
+    width: 100%;
+    margin: 1rem 0rem;
+}
+
+#footer .container .box2 .box-container .card .card-container p a {
+    color: rgba(128, 128, 128, 0.847);
+    font-weight: 300;
+    font-size: 0.86rem;
+}
+
+#footer .container .box2 .box-container .card .card-container p i {
+    color: white;
+    background-color: #3284e8;
+    padding: 0.3rem;
+    margin: 0rem 0.5rem;
+    border-radius: 50%;
+    font-size: 0.6rem;
+}
